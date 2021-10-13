@@ -1,12 +1,11 @@
 
 class Dinosaur:
-    def __init__(self, name, attack_power, health):
+    def __init__(self, name, health, weapon, attack_power):
         self.name = name
         self.attack_power = attack_power
         self.health = health
+        self.weapon = weapon
 
-    def dino_attack(self, slap_the_robot, attack_power):
-        self.slap_him = slap_the_robot
-        self.attack_power = attack_power
-        
+    def dino_attack(self, robot):
+        self.robot = robot
         pass
