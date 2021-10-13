@@ -4,9 +4,9 @@ class Robot:
         self.name = name
         self.health = health
         self.weapon = weapon
+    from weapons import Weapons
 
-    def robot_attack (self, slap_the_dino, attack_power):
-        self.slap_the_dino = slap_the_dino
+    def robot_attack (self, name_weapon, attack_power):
+        self.name_weapon = name_weapon
         self.attack_power = attack_power
-        
         pass
