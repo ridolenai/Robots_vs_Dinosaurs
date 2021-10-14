@@ -1,16 +1,15 @@
 
-from fleet import Fleet
-from herd import Herd
-from weapon import Weapons
-
 class Robot:
-    def __init__(self, name, health, weapon, attack_power):
+    def __init__(self, name, health, weapon):
         self.name = name
         self.health = health
         self.weapon = weapon
-        self.attack_power = attack_power
     
 
-    def robot_attack (self,robot):
-        self.robot = robot
+    def robot_attack (self, dino):
+        dino.health -= self.weapon.attack_power
+        
+
+        
+
         
