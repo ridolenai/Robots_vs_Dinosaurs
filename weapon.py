@@ -27,12 +27,3 @@ class Weapons:
     #         print ('Unless you are fighting the doctor, you will be fine.  25 damage per hit.')
     #         name_weapon ('Dalek mode', 25)
     #     input ('Press enter key when you are ready to proceed.')
-
-    #     retur
-                
-        
-    def time_to_fight(self, weapon_choice):
-        pass
-
-        
-            
