@@ -1,6 +1,6 @@
 
 from dinosaur import Dinosaur
-from weapons import Weapons
+from weapon import Weapons
 class Herd:
     def __init__(self):
         self.herd_list = []

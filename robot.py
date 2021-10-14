@@ -1,5 +1,6 @@
 
 from fleet import Fleet
+from herd import Herd
 from weapon import Weapons
 
 class Robot:
@@ -10,6 +11,6 @@ class Robot:
         self.attack_power = attack_power
     
 
-    def robot_attack (self,dinosaur):
-        self.dinosaur = dinosaur
-        if dinosaur
+    def robot_attack (self,robot):
+        self.robot = robot
+        

@@ -1,6 +1,6 @@
 
 from robot import Robot
-from weapons import Weapons
+from weapon import Weapons
 class Fleet:
     def __init__(self):
         self.fleet_list = []
