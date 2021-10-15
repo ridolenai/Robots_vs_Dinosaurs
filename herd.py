@@ -2,6 +2,8 @@
 from dinosaur import Dinosaur
 from weapon import Weapons
 from random import randint   
+
+#creates dinosaur herd
 class Herd:
     def __init__(self):
         self.herd_list = []

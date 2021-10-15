@@ -1,4 +1,6 @@
 
+
+#creates dinosaurs and defines their attack function
 class Dinosaur:
     def __init__(self, name, health, weapon):
         self.name = name

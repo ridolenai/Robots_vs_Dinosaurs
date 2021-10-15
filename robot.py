@@ -4,7 +4,7 @@ from random import choice
 
 from weapon import Weapons
 
-
+#creates robots and defines their attack ability
 class Robot:
     def __init__(self, name, health, weapon):
         self.name = name
@@ -12,7 +12,7 @@ class Robot:
         self.weapon = weapon
         weapon_choices = ('Shocky Monkey', 'Laser Cannon', 'Potato')
         weapon = choice (weapon_choices)
-        # weapon = Weapons()
+        
     
 
     def robot_attack (self, dino):
