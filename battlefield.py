@@ -20,8 +20,10 @@ class Battlefield:
         print ('I want to play a game.')
         print ('You do not have a choice.  You must also play')
         print ('Welcome to Robots vs Dinosaurs, a great new...')
-        print ('Who am I kidding.  This is going to be awful, but you will do it anyway.  ')
-        time.sleep(4)
+        print ('Who am I kidding.  This is going to be awful, but you will do it anyway because the game plays itself. ')
+        print ("I'm like WOPR's annoying, slighty less intelligent cousin.  Well, enjoy the 'game' we are playing.")
+        print ("Also, just a heads up, there is probably a very small, but still non-zero, chance the world may blow up.  I'm not smart, don't ask me.")
+        time.sleep(15)
 
     def battle(self):  #completes the epic genocidal battle between the last remaining dinosaurs and sentient robots
         while robot_group.fleet_list != [] and dino_group.herd_list != []:
@@ -38,7 +40,7 @@ class Battlefield:
             if robot_group.fleet_list != []:
                 dino_group.herd_list[0].dino_attack(robot_group.fleet_list[0])
                 robot_group.fleet_list[0].robot_attack(dino_group.herd_list[0])
-            time.sleep(2)
+            
             print (f'You have {len(robot_group.fleet_list)} robots left')
             for robot in robot_group.fleet_list:
                 print (f' {(robot.name)} has {(robot.health)} health left')
